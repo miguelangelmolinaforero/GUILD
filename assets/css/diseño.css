@@ -1,0 +1,158 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+p,
+h2,
+li,
+a,
+label,
+h1,
+h3,
+input,
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav {
+    margin: auto 0;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.my_title {
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    max-width: 600px;
+    z-index: 1;
+    color: white;
+    background: black;
+    filter: opacity(80%);
+    padding: 10px 20px;
+}
+
+.my_photo_image {
+    position: relative;
+}
+
+.page_options {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.barra {
+    background-color: rgb(51, 51, 51);
+}
+
+.barra::placeholder {
+    color: white;
+}
+
+.nav_option {
+    margin-left: 25px;
+    color: white;
+    list-style: none;
+}
+
+.btn {
+    background: red;
+    color: white;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.option {
+    margin-left: 25px;
+    color: white;
+}
+
+.prueba {
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.my_name {
+    text-align: center;
+}
+
+.my_photo_image {
+    margin: 0;
+    text-align: center;
+}
+
+.union_sections {
+    display: flex;
+}
+
+.center_title {
+    text-align: center;
+}
+
+.mockup_image {
+    margin: 0 15px 0 0;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer span {
+    margin: auto 0;
+}
+
+.contacto {
+    display: block;
+    margin-left: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer label {
+    color: white
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.layman-terms {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    height: 80px;
+    align-items: center;
+}
