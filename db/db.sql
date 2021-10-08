@@ -1,3 +1,5 @@
+CREATE DATABASE guild;
+
 CREATE TABLE Usuario (
 
     Nombre Varchar(20),
