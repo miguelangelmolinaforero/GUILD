@@ -1,0 +1,26 @@
+</br>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Login 01</title>
+    <link rel="stylesheet" href="./styles.css">
+ 
+
+</head>
+
+<body>
+    <form action="index.html" class="form-box animated fadeInUp">
+        <h1 class="form-title">Inicio de sesion</h1>
+        <input type="text" placeholder="Nombre de usuario" autofocus>
+        <input type="password" placeholder="Contraseña">
+        <button type="submit">
+            Ingresar
+        </button>
+    </form>
+</body>
+
+</html>
