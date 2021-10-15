@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>GRACIAS</title>
+    </head>
+        <body>
+            <body background="imagenes/fondo-textura-papel-arrugado-negro-oscuro-cerca_99266-411.jpg">
+            <table border=1 width=100% style="background-color: black;">
+                <tr>
+                    <td width=50% Align=center>
+                        <p style="Color: white">GRACIAS POR USAR NUESTROS SERVICIOS</p>
+                    </br>
+                        <p><img src="Imagenes/pacman (1).gif" width="30%"></p>
+                </br>
+                    <p style="Color: white">DISFRUTA DE TU NUEVO ARTICULO</p>
+                    </td>
+             
+                    <td width=60% Align=center><img src="Imagenes/Roadhog.png" width=100%></td>
+                </tr>
+
+            <tr>
+             <figure Align=center>
+            <h1 style="Color: white">GUILD</h1>
+            <h3 style="color:red">EL PODER DE LOS JUEGOS </h3>
+        </figure>  
+    </tr>  
+    </table>  
+<br>
+<br>
+    <center>
+        <input type="button" name="boton" value="Continuar" style="width:200px; height:45px; background-color: gray;">
+        
+        </center>   
+            </body>
+            </body>
+            </html>
