@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Categoria</title>
+
+        <body>
+            <body style="background-color: black;" >  
+<table border=1 width=100% style="background-color: black;">
+    <tr>
+    <td width="20%" style="color: white"> <center><input type="button" name="boton" value="Skins" style="width:200px; height:20px; background-color: gray;"></center></td>
+    <td width="20%" style="color: white"> <center><input type="button" name="boton" value="Monturas" style="width:200px; height:20px; background-color: gray;"></center></td>
+    <td width="20%" style="color: white"> <center><input type="button" name="boton" value="Mascotas" style="width:200px; height:20px; background-color: gray;"></center></td>
+    <td width="20%" style="color: white"> <center><input type="button" name="boton" value="Items" style="width:200px; height:20px; background-color: gray;"></center></td>
+</tr>
+</table>
+<table border=1 width=100% background="imagenes/fondo-textura-papel-arrugado-negro-oscuro-cerca_99266-411.jpg">
+<tr>
+    <td width="50%" style="color:white">
+       <figure Align="center"><p><img src="Imagenes/chopper_preview_rev_1.png" width="20%"></p></figure>
+       <figure Align="center"><h5 style="color: white;" >Chopper de mekigeniero</h5></figure>
+        <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+    </td>
+    <td>
+        <figure Align="center"><p><img src="Imagenes/Can_preview_rev_1.png" width="20%"></p></figure>
+        <figure Align="center"><h5 style="color: white;" >Can vil</h5></figure>
+        <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+    </td>
+</tr>
+</table>
+
+<table border=1 width=100% background="imagenes/fondo-textura-papel-arrugado-negro-oscuro-cerca_99266-411.jpg">
+    <tr>
+        <td width="50%" style="color:white">
+           <figure Align="center"><p><img src="Imagenes/428198-garn-sombraullido_preview_rev_1.png" width="20%"></p></figure>
+           <figure Align="center"><h5 style="color: white;" >Aullanoches garn</h5></figure>
+            <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+        </td>
+        <td>
+            <figure Align="center"><p><img src="Imagenes/Vial_preview_rev_1.png" width="20%"></p></figure>
+            <figure Align="center"><h5 style="color: white;" >Vial de las arenas</h5></figure>
+            <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+        </td>
+    </tr>
+    </table>
+
+    <table border=1 width=100% background="imagenes/fondo-textura-papel-arrugado-negro-oscuro-cerca_99266-411.jpg">
+        <tr>
+            <td width="50%" style="color:white">
+               <figure Align="center"><p><img src="Imagenes/Gronnito_preview_rev_1.png" width="20%"></p></figure>
+               <figure Align="center"><h5 style="color: white;" >Gronnito puño de carbon</h5></figure>
+                <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+            </td>
+            <td>
+                <figure Align="center"><p><img src="Imagenes/Vtt_preview_rev_1.png" width="20%"></p></figure>
+                <figure Align="center"><h5 style="color: white;" >Vtt xiwyllag</h5></figure>
+                <p><center><input type="button" name="boton" value="Ver mas" style="width:200px; height:20px; background-color: gray;"></center></p>
+            </td>
+        </tr>
+        </table>
+        </body>
+        </body>
+        </head>
+        </html>
+        
