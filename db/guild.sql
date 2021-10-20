@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-10-2021 a las 02:04:18
--- Versión del servidor: 10.4.6-MariaDB
--- Versión de PHP: 7.3.8
+-- Tiempo de generación: 20-10-2021 a las 06:54:06
+-- Versión del servidor: 10.4.21-MariaDB
+-- Versión de PHP: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -112,6 +111,26 @@ CREATE TABLE `producto_precio` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `users`
+--
+
+CREATE TABLE `users` (
+  `ID` int(11) NOT NULL,
+  `USERNAME` varchar(200) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `PASSWORD` varchar(200) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `EMAIL` varchar(200) COLLATE utf8mb4_spanish2_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`ID`, `USERNAME`, `PASSWORD`, `EMAIL`) VALUES
+(2, 'soymiguel', '$2y$10$3l2Fetn7BrENkBThJtrm0uBcPY00/AnT3Y/A1AFhJNmdfo7W9PUta', 'emocareemo@gmail.com');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `usuario`
 --
 
@@ -182,6 +201,12 @@ ALTER TABLE `producto_precio`
   ADD KEY `FK_ID_Producto` (`FK_ID_Producto`);
 
 --
+-- Indices de la tabla `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`ID`);
+
+--
 -- Indices de la tabla `usuario`
 --
 ALTER TABLE `usuario`
@@ -193,6 +218,16 @@ ALTER TABLE `usuario`
 --
 ALTER TABLE `vendedor`
   ADD PRIMARY KEY (`Num_Identificacion`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `users`
+--
+ALTER TABLE `users`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas

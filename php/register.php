@@ -15,3 +15,4 @@
     </div>
     <button type="submit" name="register" value="register">Register</button>
 </form>
+<button type="submit"><a href="login.php">Ingresar</a></button>

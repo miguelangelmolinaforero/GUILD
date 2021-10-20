@@ -11,9 +11,10 @@
     </div>
     <button type="submit" name="login" value="login">Log In</button>
 </form>
+<h3 style="text-align: center;">No estás registrado aun? <a href="register.php">registrar</a></h3>
 <?php
  
-include('config.php');
+include('../db_connection.php');
 session_start();
  
 if (isset($_POST['login'])) {
@@ -30,9 +31,10 @@ if (isset($_POST['login'])) {
     if (!$result) {
         echo '<p class="error">Username password combination is wrong!</p>';
     } else {
-        if (password_verify($password, $result['password'])) {
+        if (password_verify($password, $result['PASSWORD'])) {
             $_SESSION['user_id'] = $result['id'];
             echo '<p class="success">Congratulations, you are logged in!</p>';
+            header('Location: main_page.php');
         } else {
             echo '<p class="error">Username password combination is wrong!</p>';
         }

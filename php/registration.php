@@ -1,6 +1,6 @@
 <?php
  
-include('config.php');
+include('../db_connection.php');
 session_start();
  
 if (isset($_POST['register'])) {
@@ -26,7 +26,7 @@ if (isset($_POST['register'])) {
         $result = $query->execute();
  
         if ($result) {
-            echo '<p class="success">Your registration was successful!</p>';
+            header('Location: login.php');
         } else {
             echo '<p class="error">Something went wrong!</p>';
         }
