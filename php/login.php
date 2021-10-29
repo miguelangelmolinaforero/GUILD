@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../php/grafi.css">
+<link rel="stylesheet" href="../assets/css/grafi.css">
 <form method="post" action="" name="signin-form">
     <div class="form-element">
         <label>Username</label>
