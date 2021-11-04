@@ -2,7 +2,7 @@
 
 // arreglo contenedor de todas los procedimientos controladores
 $controllers=array(
-	'path'=>['index','register','save','show','updateshow','update','delete','search','error']
+	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error']
 );
 
 if (array_key_exists($controller,  $controllers)) {
