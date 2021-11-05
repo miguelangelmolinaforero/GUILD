@@ -490,6 +490,9 @@ footer li {
 .container {
     max-width: 1200px;
     background: inherit;
+    display: inherit;
+    flex-wrap: inherit;
+    color: inherit;
 }
 
 .grid_container {

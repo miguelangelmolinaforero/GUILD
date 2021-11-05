@@ -21,7 +21,7 @@ class PathController
 	function register(){
 		require_once('php/Views/Path_page/register.php');
 	}
-
+	
 	function vender(){
 		require_once('php/Views/Path_page/vender_view.php');
 	}

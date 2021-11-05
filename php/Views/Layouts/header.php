@@ -32,7 +32,7 @@
             <span class="icon-user"></span>
         </figure>
         <h3 class="name_user">
-            <a style="text-decoration: none; color: white;" href="../../../../GUILD/php/login.php">
+            <a style="text-decoration: none; color: white;" href="?controller=path&action=register">
                 Inicia sesion
             </a>
         </h3>

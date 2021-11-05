@@ -1,0 +1,17 @@
+h2 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.panel {
+    height: 80vh;
+    background-image: url('../../../../GUILD/images/fondo_imagen.jpeg');
+}
+
+.panel-body {
+    padding-top: 5vh;
+    max-width: 960px;
+}

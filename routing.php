@@ -2,7 +2,7 @@
 
 // arreglo contenedor de todas los procedimientos controladores
 $controllers=array(
-	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error', 'vender'],
+	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error', 'vender', 'login'],
 	'vender'=>['guardar_datos']
 );
 
@@ -23,10 +23,15 @@ function call($controller, $action){
 
 	switch ($controller) {
 		case 'path':
-		require_once('php/Model/path.php');
-		// se crea un nuevo objeto UsuarioController
-		$controller = new PathController();
-		break;
+			require_once('php/Model/path.php');
+			// se crea un nuevo objeto UsuarioController
+			$controller = new PathController();
+			break;
+		case 'vender':
+			require_once('php/Model/path.php');
+			// se crea un nuevo objeto UsuarioController
+			$controller = new ventasController();
+			break;
 	}
 	$controller->{$action}();
 }

@@ -35,105 +35,107 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
+
+
+
+
     <div class="categoria_containers">
         <h1>CATEGORIAS</h1>
-        <div class="categoria_primera_linea">
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/genshin-impact-202092819311747_1.jpg" alt="imagen de la noticia" >
-                    </figure>
+        <div class="ancho_categorias">
+            <div class="categoria_primera_linea">
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/genshin-impact-202092819311747_1.jpg" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">ACCIÓN</h1>
+
+                    </div>
                 </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">ACCIÓN</h1>
-    
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/genshin_2.jpeg" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">ROL</h1>
+                    </div>
+                </div>
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">ARCADE</h1>
+                    </div>
                 </div>
             </div>
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/genshin_2.jpeg" alt="imagen de la noticia">
-                    </figure>
+
+            <div class="categoria_segunda_linea">
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logos">
+                            <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">AVENTURA</h1>
+                    </div>
                 </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">ROL</h1>
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logos">
+                            <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">SHOOTERS</h1>
+                    </div>
                 </div>
+
             </div>
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
-                    </figure>
+
+
+            <div class="categoria_primera_linea">
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/genshin_2.jpeg" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">SIMULACIÓN</h1>
+                    </div>
                 </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">ARCADE</h1>
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">ESTRATEGIA</h1>
+                    </div>
+                </div>
+                <div class="categoria_hijos">
+                    <div class="categoria_imagen">
+                        <figure class="categoria_logo">
+                            <img src="..../../../../GUILD/images/genshin-impact-202092819311747_1.jpg" alt="imagen de la noticia">
+                        </figure>
+                    </div>
+                    <div class="nombre_categoria">
+                        <h1 class="categoria_name">DEPORTES</h1>
+
+                    </div>
                 </div>
             </div>
         </div>
-    
-        <div class="categoria_segunda_linea">
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logos">
-                        <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
-                    </figure>
-                </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">AVENTURA</h1>
-                </div>
-            </div>
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logos">
-                        <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
-                    </figure>
-                </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">SHOOTERS</h1>
-                </div>
-            </div>
-    
-        </div>
-    
-    
-        <div class="categoria_primera_linea">
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/genshin_2.jpeg" alt="imagen de la noticia">
-                    </figure>
-                </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">SIMULACIÓN</h1>
-                </div>
-            </div>
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/carlos_duty.png" alt="imagen de la noticia">
-                    </figure>
-                </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">ESTRATEGIA</h1>
-                </div>
-            </div>
-            <div class="categoria_hijos">
-                <div class="categoria_imagen">
-                    <figure class="categoria_logo">
-                        <img src="..../../../../GUILD/images/genshin-impact-202092819311747_1.jpg" alt="imagen de la noticia">
-                    </figure>
-                </div>
-                <div class="nombre_categoria">
-                    <h1 class="categoria_name">DEPORTES</h1>
-    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    </section>
+
+</section>
+</div>
 </section>
