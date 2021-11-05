@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- LINK DEL LOGO -->
-    <link rel="shortcut icon" href="../images/logo_pagina_pestania.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../GUILD/images/logo_pagina_pestania.jpg" type="image/x-icon">
 
     <!-- INCLUIR CSS PRINCIPAL -->
     <link rel="stylesheet" href="../../../../GUILD/assets/css/styles_main_page.css">

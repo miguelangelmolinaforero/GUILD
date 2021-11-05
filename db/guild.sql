@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-10-2021 a las 06:54:06
+-- Tiempo de generación: 05-11-2021 a las 04:26:01
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.10
 
@@ -126,20 +126,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `USERNAME`, `PASSWORD`, `EMAIL`) VALUES
-(2, 'soymiguel', '$2y$10$3l2Fetn7BrENkBThJtrm0uBcPY00/AnT3Y/A1AFhJNmdfo7W9PUta', 'emocareemo@gmail.com');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `usuario`
---
-
-CREATE TABLE `usuario` (
-  `Usuario` varchar(30) DEFAULT NULL,
-  `Contraseña` varchar(15) DEFAULT NULL,
-  `FK_Codigo_Cliente` int(11) DEFAULT NULL,
-  `FK_Num_Identificacion` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+(2, 'soymiguel', '$2y$10$3l2Fetn7BrENkBThJtrm0uBcPY00/AnT3Y/A1AFhJNmdfo7W9PUta', 'emocareemo@gmail.com'),
+(3, 'deivi', '$2y$10$Xfli.QfR7DOzLeEvZI9hZumqxscgVGNFNt0dzDIFkfERmsALdo4V6', 'aaa@gmail.com'),
+(4, 'ddd', '$2y$10$ZnzeDPnOnoaoqqK/nOzJFOM7QNfzA1mDymwIbYGmGGXsEEDBMPec.', 'ddd@dd.com');
 
 -- --------------------------------------------------------
 
@@ -207,13 +196,6 @@ ALTER TABLE `users`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indices de la tabla `usuario`
---
-ALTER TABLE `usuario`
-  ADD KEY `FK_Codigo_Cliente` (`FK_Codigo_Cliente`),
-  ADD KEY `FK_Num_Identificacion` (`FK_Num_Identificacion`);
-
---
 -- Indices de la tabla `vendedor`
 --
 ALTER TABLE `vendedor`
@@ -227,7 +209,7 @@ ALTER TABLE `vendedor`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Restricciones para tablas volcadas
@@ -263,13 +245,6 @@ ALTER TABLE `persona_de_contacto`
 --
 ALTER TABLE `producto_precio`
   ADD CONSTRAINT `producto_precio_ibfk_1` FOREIGN KEY (`FK_ID_Producto`) REFERENCES `producto` (`ID_Producto`);
-
---
--- Filtros para la tabla `usuario`
---
-ALTER TABLE `usuario`
-  ADD CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`FK_Codigo_Cliente`) REFERENCES `cliente` (`Codigo_Cliente`),
-  ADD CONSTRAINT `usuario_ibfk_2` FOREIGN KEY (`FK_Num_Identificacion`) REFERENCES `vendedor` (`Num_Identificacion`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
