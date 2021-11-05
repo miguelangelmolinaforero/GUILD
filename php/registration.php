@@ -28,7 +28,7 @@ if (isset($_POST['register'])) {
         if ($result) {
             header('Location: login.php');
         } else {
-            echo '<p class="error">Something went wrong!</p>';
+            header('Location: Views/error.php');
         }
     }
 }

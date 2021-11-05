@@ -33,8 +33,8 @@
         </figure>
         <h3 class="name_user">
             <a style="text-decoration: none; color: white;" href="../../../../GUILD/php/login.php">
-                    Inicia sesion
-                </a>
+                Inicia sesion
+            </a>
         </h3>
     </div>
     <div class="country_user_section">
