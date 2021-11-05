@@ -23,7 +23,7 @@
         <li><a href="?controller=path&action=categoria">Categorias</a></li>
         <li><a href="">Mis Compras</a></li>
         <li><a href="">Ofertas</a></li>
-        <li><a href="">Vender</a></li>
+        <li><a href="?controller=path&action=vender">Vender</a></li>
     </ul>
 </nav>
 <div class="user_data">
