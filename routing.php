@@ -2,17 +2,17 @@
 
 // arreglo contenedor de todas los procedimientos controladores
 $controllers=array(
-	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error']
+	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error', 'vender'],
+	'vender'=>['guardar_datos']
 );
 
 if (array_key_exists($controller,  $controllers)) {
 	if (in_array($action, $controllers[$controller])) {
 		call($controller, $action);
-	}
-	else{
+	} else {
 		call('path','error');
 	}		
-}else{
+} else {
 	call('path','error');
 }
 
