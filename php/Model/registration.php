@@ -26,7 +26,7 @@ if (isset($_POST['register'])) {
         $result = $query->execute();
  
         if ($result) {
-            header('Location: login.php');
+            header('Location: ?controller=path&action=login');
         } else {
             echo '<p class="error">Something went wrong!</p>';
         }

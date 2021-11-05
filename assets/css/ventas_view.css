@@ -15,3 +15,12 @@ label {
     padding-top: 5vh;
     max-width: 960px;
 }
+
+input {
+    border: none;
+    background: var(--gris_footer);
+}
+
+input::placeholder {
+    color: white;
+}

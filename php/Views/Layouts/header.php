@@ -22,7 +22,7 @@
     <ul class="page_options">
         <li><a href="?controller=path&action=categoria">Categorias</a></li>
         <li><a href="">Mis Compras</a></li>
-        <li><a href="">Ofertas</a></li>
+        <li><a href="?controller=path&action=ofertas">Ofertas</a></li>
         <li><a href="?controller=path&action=vender">Vender</a></li>
     </ul>
 </nav>
@@ -32,7 +32,7 @@
             <span class="icon-user"></span>
         </figure>
         <h3 class="name_user">
-            <a style="text-decoration: none; color: white;" href="?controller=path&action=register">
+            <a style="text-decoration: none; color: white;" href="?controller=path&action=login">
                 Inicia sesion
             </a>
         </h3>

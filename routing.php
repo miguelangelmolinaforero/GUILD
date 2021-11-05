@@ -2,7 +2,7 @@
 
 // arreglo contenedor de todas los procedimientos controladores
 $controllers=array(
-	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error', 'vender', 'login'],
+	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error','vender','login','ofertas'],
 	'vender'=>['guardar_datos']
 );
 

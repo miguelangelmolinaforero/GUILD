@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../../../GUILD/assets/css/styles_main_page.css">
 	
     <!-- INCLUIR CSS VENDER -->
-    <link rel="stylesheet" href="../../../../GUILD/assets/css/styles_main_page.css">
+    <!-- <link rel="stylesheet" href="../../../../GUILD/assets/css/styles_main_page.css"> -->
 
 	<!-- INCLUIR CSS LOGIN -->
     <!-- <link rel="stylesheet" href="../../../../GUILD/assets/css/grafi.css"> -->

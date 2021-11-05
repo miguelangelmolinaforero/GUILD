@@ -21,9 +21,17 @@ class PathController
 	function register(){
 		require_once('php/Views/Path_page/register.php');
 	}
+
+	function login(){
+		require_once('php/Views/Path_page/login.php');
+	}
 	
 	function vender(){
 		require_once('php/Views/Path_page/vender_view.php');
+	}
+
+	function ofertas(){
+		require_once('php/Views/Path_page/ofertas_view.php');
 	}
 
 	function error(){
