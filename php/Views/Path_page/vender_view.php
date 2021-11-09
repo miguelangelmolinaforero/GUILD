@@ -25,7 +25,7 @@
                 <div class="form-group ">
                     <label class="col-sm-2 control-label ">Archivos</label>
                     <div class="col-sm-8 ">
-                        <input type="file " class="form-control " id="archivo[] " name="archivo[] " multiple=" " accept="image/* ">
+                        <input type="file" class="form-control " id="archivo[] " name="archivo[] " multiple=" " accept="image/* ">
                     </div>
 
                     <button type="submit " class="btn btn-primary ">Cargar</button>
