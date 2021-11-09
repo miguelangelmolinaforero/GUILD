@@ -14,7 +14,7 @@
                 </div>
                 <div class="mb-3 ">
                     <label for="descripcion " class="form-label ">Descripción</label>
-                    <textarea class="form-control search_bar " placeholder="Añade una descripcion ed tu producto o artículo" id="descripcion " rows="3 "></textarea>
+                    <textarea class="form-control search_bar " placeholder="Añade una descripcion de tu producto o artículo" id="descripcion " rows="3 "></textarea>
                 </div>
                 <div class="mb-3 ">
                     <label for="exampleFormControlInput1 " class="form-label ">Precio</label>
