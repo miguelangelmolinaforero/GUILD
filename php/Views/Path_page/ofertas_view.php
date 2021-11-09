@@ -6,12 +6,11 @@
         <table class="table">
             <tr>
                 <td>
-                    <figure>
-                        <p> <img src="../../../../GUILD/images/mini-ragnaros.jpg" class="ImageBorder"> </p>
-                        <p class="Text"> Mini Ragnaros</p>
-                        <p class="Text"> Antes: $38.744</p>
-                        <p class="Text"> Ahora: $34.869</p>
-                        <p class="button"><button type="submit">VER MAS </button></p>
+                    <p> <img src="../../../../GUILD/images/mini-ragnaros.jpg" class="ImageBorder"> </p>
+                    <p class="Text"> Mini Ragnaros</p>
+                    <p class="Text"> Antes: $38.744</p>
+                    <p class="Text"> Ahora: $34.869</p>
+                    <p class="button"><button type="submit">VER MAS </button></p>
                 </td>
                 <td>
                     <p> <img src="../../../../GUILD/images/mini-kt.jfif" class="ImageBorder"> </p>
