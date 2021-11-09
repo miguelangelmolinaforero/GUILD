@@ -40,7 +40,7 @@
 
 
     <div class="categoria_containers">
-        <h1>CATEGORIAS</h1>
+        <h1 class="subtitle_categorias">CATEGORIAS</h1>
         <div class="ancho_categorias">
             <div class="categoria_primera_linea">
                 <div class="categoria_hijos">

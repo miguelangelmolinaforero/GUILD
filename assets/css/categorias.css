@@ -1,5 +1,8 @@
-h1 {
+h1 {}
+
+.subtitle_categorias {
     text-align: center;
+    padding-top: 30px;
 }
 
 .categoria_containers {
@@ -21,6 +24,10 @@ h1 {
     justify-content: space-between;
 }
 
+.categoria_primera_linea:last-child {
+    padding-bottom: 25px;
+}
+
 .categoria_segunda_linea {
     margin-top: 20px;
     display: flex;
@@ -29,7 +36,7 @@ h1 {
 }
 
 .categoria_segunda_linea .categoria_hijos {
-    width: 600px;
+    width: 465px;
 }
 
 .categoria_hijos {
@@ -65,7 +72,8 @@ h1 {
 .nombre_categoria h1 {
     text-align: center;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 58px;
+    font-size: 29px;
 }
 
 .categoria_logo {
@@ -91,7 +99,7 @@ h1 {
 .categoria_logos img {
     width: auto;
     height: auto;
-    max-width: 600px;
+    max-width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
