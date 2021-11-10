@@ -7,7 +7,7 @@ label {
 }
 
 .panel {
-    height: 114vh;
+    /* height: 114vh; */
     background-image: url('../../../../GUILD/images/fondo_imagen.jpeg');
 }
 

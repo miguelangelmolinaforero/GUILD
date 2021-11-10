@@ -22,7 +22,7 @@
                 </div>
                 <h2 class="text-center ">Cargar Multiple Imagenes</h2>
 
-                <div class="form-group ">
+                <div class="form-group " style="padding-bottom: 25px;">
                     <label class="col-sm-2 control-label ">Archivos</label>
                     <div class="col-sm-8 ">
                         <input type="file" class="form-control " id="archivo[] " name="archivo[] " multiple=" " accept="image/* ">
