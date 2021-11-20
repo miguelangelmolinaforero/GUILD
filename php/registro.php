@@ -44,7 +44,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+        <style>
+            .container {
+                text-align: center;
+                height: 66vh;
+            }
+            
+            .row {
+                margin: 50px;
+                justify-content: center;
+            }
+        </style>
 </head>
 
 <body>
