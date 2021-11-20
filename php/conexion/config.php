@@ -1,6 +1,6 @@
 <?php
   $serv="localhost";
   $user="root";
-  $pass="";
+  $pass="root";
   $namedb="subastas";
 ?>
