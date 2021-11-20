@@ -2,8 +2,7 @@
 
 // arreglo contenedor de todas los procedimientos controladores
 $controllers=array(
-	'path'=>['index','categoria','register','save','show','updateshow','update','delete','search','error','vender','login','ofertas'],
-	'vender'=>['guardar_datos']
+	'path'=>['index','categoria','register','vender','login','ofertas','subasta','compras','perfil','agrega_categoria','logout']
 );
 
 if (array_key_exists($controller,  $controllers)) {
@@ -26,11 +25,6 @@ function call($controller, $action){
 			require_once('php/Model/path.php');
 			// se crea un nuevo objeto UsuarioController
 			$controller = new PathController();
-			break;
-		case 'vender':
-			require_once('php/Model/path.php');
-			// se crea un nuevo objeto UsuarioController
-			$controller = new ventasController();
 			break;
 	}
 	$controller->{$action}();
