@@ -263,7 +263,7 @@
                                       <div class="col-sm-6 col-md-6">
                                           <?php
                                             //Aqui se mostrara la imagen del producto en grande
-                                            echo "<img src='images/productos/$imagen_p' style='max-height: 450px; width: 100%;'>"; ?>
+                                            echo "<img src='php/images/productos/$imagen_p' style='max-height: 450px; width: 100%;'>"; ?>
                                       </div>
                                       <div class="col-sm-6 col-md-6">
                                         <div class="thumbnail">

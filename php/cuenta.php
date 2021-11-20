@@ -250,7 +250,8 @@
                     </div>
                 </div>
                 <!-- Termina subastas mias que ya fueron vendidas -->
-                <a class="btn btn-info" href="?controller=path&action=logout">Cerrar sesion</a>
+                <a class="btn btn-info" href="?controller=path&action=perfil">Perfil</a>
+                <a class="btn btn-success" href="?controller=path&action=logout">Cerrar sesion</a>
               </div>
               <!-- Fin de listado -->
 
